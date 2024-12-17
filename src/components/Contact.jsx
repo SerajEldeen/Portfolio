@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { github, linkedin } from "../assets";
 import { styles } from "../styles";
+import resume from "../assets/Seraj-Eldeen.pdf";
 const Contact = () => {
   return (
     <>
@@ -16,7 +17,7 @@ const Contact = () => {
             Reach me here
           </h2>
           <button
-            onClick={() => window.open("/Seraj-Eldeen.pdf", "_blank")}
+            onClick={() => window.open(resume, "_blank")}
             className=" button-effect text-secondary mb-10   bg-white rounded-md
           hover:scale-105  duration-500  uppercase 
           "
