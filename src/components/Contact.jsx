@@ -9,7 +9,7 @@ const Contact = () => {
         className="mt-10   bg-primary flex h-72 justify-center items-center"
         id="contact"
       >
-        <div className="w-full px-5 mx-auto text-center">
+        <div className="w-full px-5 mx-auto  text-center">
           <h2
             className={`${styles.sectionSubText} text-center text-white mb-10`}
           >
