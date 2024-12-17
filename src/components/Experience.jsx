@@ -11,7 +11,7 @@ import { textVariant } from "../utils/motion";
 import "../index.css";
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    className="custom-vertical-timeline-element"
+    className="custom-vertical-timeline-element "
     contentStyle={{ background: "#f5f5f5", color: "#525f7f" }}
     contentArrowStyle={{ borderRight: "7px solid #232631" }}
     date={experience.date}
@@ -26,18 +26,16 @@ const ExperienceCard = ({ experience }) => (
       </div>
     }
   >
-    <div>
-      <h3 className="text-[#525f7f]font-black font-bold text-[17px]">
-        {experience.title}
-      </h3>
-      <p
-        className="text-secondary text-[16px] font-semibold "
-        style={{ margin: 0 }}
-      >
-        {experience.company_name}
-      </p>
-    </div>
-    <ul className="mt-5  list-disc ml-5 space-y-2">
+    <h3 className="text-[#525f7f]font-black font-bold text-[17px]">
+      {experience.title}
+    </h3>
+    <p
+      className="text-secondary text-[16px] font-semibold "
+      style={{ margin: 0 }}
+    >
+      {experience.company_name}
+    </p>
+    <ul className="mt-5 list-disc ml-5 space-y-2">
       {experience.points.map((e, i) => (
         <li key={i} className=" text-[14px] pl-1 tracking-wider">
           {e}

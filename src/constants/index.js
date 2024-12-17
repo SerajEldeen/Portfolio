@@ -147,9 +147,9 @@ const projects = [
       },
     ],
     image: Portfolio,
-    source_code_link: "https://github.com/SerajEldeen/GeminiClone",
+    source_code_link: "https://github.com/SerajEldeen/Portfolio",
     prereview_link:
-      "https://gemini-clone-55xib0kih-seraj-eldeen-abdullahs-projects.vercel.app/",
+      "https://portfolio-pg3gg9tjw-seraj-eldeen-abdullahs-projects.vercel.app/",
   },
 ];
 
