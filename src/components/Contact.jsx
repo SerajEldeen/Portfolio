@@ -16,7 +16,7 @@ const Contact = () => {
             Reach me here
           </h2>
           <button
-            onClick={() => window.open("/SerajEldeen.pdf", "_blank")}
+            onClick={() => window.open("/Seraj-Eldeen.pdf", "_blank")}
             className=" button-effect text-secondary mb-10   bg-white rounded-md
           hover:scale-105  duration-500  uppercase 
           "
