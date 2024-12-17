@@ -103,7 +103,7 @@ const projects = [
     image: TheWildOasis,
     source_code_link: "https://github.com/SerajEldeen/TheWildOasis",
     prereview_link:
-      "https://the-wild-oasis-53ay-gdut1zl12-seraj-eldeen-abdullahs-projects.vercel.app",
+      "the-wild-oasis-53ay-git-master-seraj-eldeen-abdullahs-projects.vercel.app",
   },
   {
     name: "Gemini Clone",
@@ -126,7 +126,7 @@ const projects = [
     image: GeminiClone,
     source_code_link: "https://github.com/SerajEldeen/GeminiClone",
     prereview_link:
-      "https://gemini-clone-55xib0kih-seraj-eldeen-abdullahs-projects.vercel.app/",
+      "gemini-clone-git-master-seraj-eldeen-abdullahs-projects.vercel.app",
   },
   {
     name: "Portfolio",
@@ -149,7 +149,7 @@ const projects = [
     image: Portfolio,
     source_code_link: "https://github.com/SerajEldeen/Portfolio",
     prereview_link:
-      "https://portfolio-pg3gg9tjw-seraj-eldeen-abdullahs-projects.vercel.app/",
+      "https://portfolio-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
   },
 ];
 
