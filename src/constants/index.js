@@ -138,7 +138,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Vite",
+        name: "Framer motion",
         color: "green-text-gradient",
       },
       {
