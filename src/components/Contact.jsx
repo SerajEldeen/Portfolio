@@ -15,7 +15,7 @@ const Contact = () => {
           >
             Reach me here
           </h2>
-          <a href="/SerajEldeen.pdf">
+          <a href="/SerajEldeen.pdf" target="_blank">
             <button
               className=" button-effect text-secondary mb-10   bg-white rounded-md
             hover:scale-105  duration-500  uppercase 
@@ -26,43 +26,37 @@ const Contact = () => {
           </a>
 
           <div className=" flex justify-center">
-            <div
-              onClick={() =>
-                window.open(
-                  "https://mail.google.com/mail/?view=cm&fs=1&to=serageldeen13@gmail.com",
-                  "_blank"
-                )
-              }
-              className=" bg-white  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
+            <a href="mailto:serageldeen13@gmail.com" target="_blank">
+              <div
+                className=" bg-white  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
               hover:opacity-40 hover:-translate-y-1.5 hover:delay-200 ease-in-out shadow-lg"
+              >
+                <FontAwesomeIcon icon={faEnvelope} className="w-1/2 h-1/2" />
+              </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/seraj-eldeen-abdullah-8872832a3/"
+              target="_blank"
             >
-              <FontAwesomeIcon icon={faEnvelope} className="w-1/2 h-1/2" />
-            </div>
-            <div
-              onClick={() =>
-                window.open(
-                  "https://www.linkedin.com/in/seraj-eldeen-abdullah-8872832a3",
-                  "_blank"
-                )
-              }
-              className=" bg-white  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
+              <div
+                className=" bg-white  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
               hover:opacity-40 hover:-translate-y-1.5 hover:delay-200 ease-in-out shadow-lg"
-            >
-              <img src={linkedin} alt={linkedin} className="w-1/2 h-1/2" />
-            </div>
-            <div
-              onClick={() =>
-                window.open("https://github.com/SerajEldeen", "_blank")
-              }
-              className="bg-black  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
+              >
+                <img src={linkedin} alt={linkedin} className="w-1/2 h-1/2" />
+              </div>
+            </a>
+            <a href="https://github.com/SerajEldeen" target="_blank">
+              <div
+                className="bg-black  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
               hover:opacity-40 hover:-translate-y-1.5 hover:delay-200 ease-in-out shadow-lg"
-            >
-              <img
-                src={github}
-                alt={github}
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+              >
+                <img
+                  src={github}
+                  alt={github}
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>
