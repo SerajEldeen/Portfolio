@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
 import { useState } from "react";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -21,9 +21,11 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt="logo" className="w-30 h-10 object-contain" />
-            <p className="text-white text-[18px] font-bold  cursor-pointer">
-              Seraj Eldeen
+            <p className="text-white text-[20px] font-bold  cursor-pointer">
+              <span className="text-sky-600 text-[35px] font-extrabold tracking-wide">
+                S
+              </span>
+              eraj Eldeen
             </p>
           </Link>
 
@@ -47,20 +49,19 @@ const Navbar = () => {
             {toggle && (
               <>
                 <div className="relative">
-                  <ul
-                    className=" list-none flex flex-col absolute right-10 top-2 
-                  z-10 bg-cyan-300 rounded-xl mx-4 p-2
-                  cursor-pointer "
-                  >
+                  <ul className="list-none flex flex-col absolute right-10 top-2 z-10 bg-secondary rounded-xl mx-4 p-4 shadow-lg transition-transform transform hover:scale-105 cursor-pointer">
                     {navLinks.map((nav) => (
                       <li
                         key={nav.id}
-                        className={` text-secondary hover:text-white text-[18px] cursor-pointer font-medium hover:translate-x-3 hover:delay-200 ease-in-out transition `}
+                        className="text-white hover:text-cyan-200 text-[18px] font-medium hover:translate-x-3 hover:scale-110 hover:delay-200 ease-in-out transition-all"
                         onClick={() => {
                           setToggle(!toggle);
                         }}
                       >
-                        <a href={`#${nav.id}`}>{nav.title}</a>
+                        <a href={`#${nav.id}`} className="relative">
+                          {nav.title}
+                          <span className="absolute bottom-0 left-0 w-full h-1 bg-cyan-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+                        </a>
                       </li>
                     ))}
                   </ul>

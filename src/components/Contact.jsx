@@ -18,7 +18,7 @@ const Contact = () => {
           <a href="/SerajEldeen.pdf" target="_blank">
             <button
               className=" button-effect text-secondary mb-10   bg-white rounded-md
-            hover:scale-105  duration-500  uppercase 
+            hover:scale-105 hover:text-white  duration-500  uppercase 
             "
             >
               Resume
