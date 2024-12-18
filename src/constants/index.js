@@ -103,7 +103,7 @@ const projects = [
     image: TheWildOasis,
     source_code_link: "https://github.com/SerajEldeen/TheWildOasis",
     prereview_link:
-      "the-wild-oasis-53ay-git-master-seraj-eldeen-abdullahs-projects.vercel.app",
+      "https://the-wild-oasis-53ay-git-master-seraj-eldeen-abdullahs-projects.vercel.app/login",
   },
   {
     name: "Gemini Clone",
@@ -126,7 +126,7 @@ const projects = [
     image: GeminiClone,
     source_code_link: "https://github.com/SerajEldeen/GeminiClone",
     prereview_link:
-      "gemini-clone-git-master-seraj-eldeen-abdullahs-projects.vercel.app",
+      "https://gemini-clone-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
   },
   {
     name: "Portfolio",
