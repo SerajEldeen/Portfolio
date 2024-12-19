@@ -8,11 +8,9 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-import { useMediaQuery } from "react-responsive";
-import { useEffect } from "react";
+// import { useMediaQuery } from "react-responsive";
 
 const Ball = (props) => {
-  // Use a fallback texture if the provided imgUrl fails
   const [decal] = useTexture([props.imgUrl]);
 
   return (
@@ -20,7 +18,7 @@ const Ball = (props) => {
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75} rotation={props.rotation}>
-        <icosahedronGeometry args={[1, 0]} />
+        <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
           color="#f5f5f5"
           emissive="#f5f5f5"
@@ -42,49 +40,15 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
-  const isSmallScreen = useMediaQuery({ maxWidth: 480 });
-
-  // Handle WebGL context loss and restoration
-  useEffect(() => {
-    const handleContextLoss = (e) => {
-      e.preventDefault();
-      console.warn("WebGL context lost");
-    };
-
-    const handleContextRestore = () => {
-      console.log("WebGL context restored");
-    };
-
-    const canvas = document.querySelector("canvas");
-    canvas.addEventListener("webglcontextlost", handleContextLoss, false);
-    canvas.addEventListener(
-      "webglcontextrestored",
-      handleContextRestore,
-      false
-    );
-
-    return () => {
-      canvas.removeEventListener("webglcontextlost", handleContextLoss);
-      canvas.removeEventListener("webglcontextrestored", handleContextRestore);
-    };
-  }, []);
-
-  if (isSmallScreen) {
-    // Fallback for mobile devices
-    return <img src={icon} alt="3D Ball" style={{ width: "100%" }} />;
-  }
+  // const isSmallScreen = useMediaQuery({ maxWidth: 480 });
 
   return (
     <Canvas
       frameloop="demand"
       dpr={[1, 2]}
-      gl={{
-        preserveDrawingBuffer: true,
-        antialias: true,
-        powerPreference: "high-performance",
-      }}
+      gl={{ preserveDrawingBuffer: true }}
     >
-      <OrbitControls enableZoom={false} enableRotate={!isSmallScreen} />
+      <OrbitControls enableZoom={false} enableRotate={false} />
       <Ball imgUrl={icon} />
       <Preload all />
     </Canvas>
