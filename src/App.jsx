@@ -5,7 +5,7 @@ import {
   Experience,
   Hero,
   Navbar,
-  // Tech,
+  Tech,
   Works,
 } from "./components";
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       <Hero />
       <About />
       <Experience />
-      {/* <Tech /> */}
+      <Tech />
       <Works />
       <Contact />
     </Router>
