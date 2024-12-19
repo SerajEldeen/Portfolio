@@ -2,10 +2,10 @@ import { BrowserRouter as Router } from "react-router-dom";
 import {
   About,
   Contact,
-  Experience,
+  // Experience,
   Hero,
   Navbar,
-  Tech,
+  // Tech,
   Works,
 } from "./components";
 const App = () => {
@@ -14,8 +14,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Experience />
-      <Tech />
+      {/* <Experience /> */}
+      {/* <Tech /> */}
       <Works />
       <Contact />
     </Router>
