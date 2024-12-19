@@ -8,7 +8,7 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-// import { useMediaQuery } from "react-responsive";
+import { useMediaQuery } from "react-responsive";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
@@ -28,7 +28,7 @@ const Ball = (props) => {
         />
         <Decal
           position={[0, 0, 1]}
-          // rotation={[2 * Math.PI, 0, 6.25]}
+          rotation={[2 * Math.PI, 0, 6.25]}
           scale={1}
           map={decal}
           flatShading
@@ -39,7 +39,7 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
-  // const isSmallScreen = useMediaQuery({ maxWidth: 480 });
+  const isSmallScreen = useMediaQuery({ maxWidth: 480 });
 
   return (
     <Canvas
@@ -47,7 +47,7 @@ const BallCanvas = ({ icon }) => {
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <OrbitControls enableZoom={false} enableRotate={false} />
+      <OrbitControls enableZoom={false} enableRotate={!isSmallScreen} />
       <Ball imgUrl={icon} />
       <Preload all />
     </Canvas>
