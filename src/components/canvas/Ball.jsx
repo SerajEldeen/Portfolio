@@ -43,11 +43,7 @@ const BallCanvas = ({ icon }) => {
   const isSmallScreen = useMediaQuery({ maxWidth: 480 });
 
   return (
-    <Canvas
-      frameloop="demand"
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
-    >
+    <Canvas frameloop="demand" dpr={[1, 2]} gl={{}}>
       <OrbitControls enableZoom={false} enableRotate={!isSmallScreen} />
       <Ball imgUrl={icon} />
       <Preload all />
