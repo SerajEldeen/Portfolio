@@ -8,7 +8,7 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-import { useMediaQuery } from "react-responsive";
+// import { useMediaQuery } from "react-responsive";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
@@ -20,7 +20,6 @@ const Ball = (props) => {
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 0]} />
         <meshStandardMaterial
-          color="#f5f5f5"
           emissive="#f5f5f5"
           emissiveIntensity={0.75}
           polygonOffset
@@ -40,7 +39,7 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
-  const isSmallScreen = useMediaQuery({ maxWidth: 480 });
+  // const isSmallScreen = useMediaQuery({ maxWidth: 480 });
 
   return (
     <Canvas
@@ -48,7 +47,7 @@ const BallCanvas = ({ icon }) => {
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <OrbitControls enableZoom={false} enableRotate={!isSmallScreen} />
+      <OrbitControls enableZoom={false} enableRotate={false} />
       <Ball imgUrl={icon} />
       <Preload all />
     </Canvas>
