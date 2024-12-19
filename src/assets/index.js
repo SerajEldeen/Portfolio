@@ -13,6 +13,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import typeScript from "./tech/typescript.png";
 
 import outlier from "./outlier.jpg";
 
@@ -39,4 +40,5 @@ export {
   TheWildOasis,
   GeminiClone,
   Portfolio,
+  typeScript,
 };

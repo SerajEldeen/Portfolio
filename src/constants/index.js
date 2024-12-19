@@ -11,6 +11,7 @@ import {
   TheWildOasis,
   GeminiClone,
   Portfolio,
+  typeScript,
 } from "../assets";
 
 export const navLinks = [
@@ -62,6 +63,10 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "TypeScript",
+    icon: typeScript,
   },
 ];
 

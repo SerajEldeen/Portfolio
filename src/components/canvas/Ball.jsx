@@ -8,7 +8,7 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
 const Ball = (props) => {
@@ -46,27 +46,48 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon }) => {
   const isSmallScreen = useMediaQuery({ maxWidth: 480 });
-  const [allowMovement, setAllowMovement] = useState(true);
+  const [isTouching, setIsTouching] = useState(false);
 
-  useEffect(() => {
-    if (isSmallScreen) {
-      setAllowMovement(false);
-    } else {
-      setAllowMovement(true);
-    }
-  }, [isSmallScreen]);
+  const handleTouchStart = () => setIsTouching(true);
+  const handleTouchEnd = () => setIsTouching(false);
 
   return (
-    <Canvas
-      frameloop="demand"
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
+    <div
+      style={{
+        position: "relative",
+        width: "100%",
+        height: "100%",
+      }}
     >
-      <OrbitControls enableZoom={false} enableRotate={allowMovement} />
-      <Ball imgUrl={icon} allowMovement={allowMovement} />
-
-      <Preload all />
-    </Canvas>
+      <Canvas
+        frameloop="demand"
+        dpr={[1, 2]}
+        gl={{ preserveDrawingBuffer: true }}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+      >
+        <OrbitControls
+          enableZoom={false}
+          enableRotate={!isSmallScreen}
+          enablePan={!isSmallScreen}
+        />
+        <Ball imgUrl={icon} allowMovement={!isSmallScreen} />
+        <Preload all />
+      </Canvas>
+      {isSmallScreen && isTouching && (
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: "transparent",
+            zIndex: 10,
+          }}
+        />
+      )}
+    </div>
   );
 };
 
