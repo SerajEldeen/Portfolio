@@ -62,9 +62,10 @@ const BallCanvas = ({ icon }) => {
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
-      {!isSmallScreen && (
+      {/* {!isSmallScreen && (
         <OrbitControls enableZoom={false} enableRotate={allowMovement} />
-      )}
+      )} */}
+      <OrbitControls enableZoom={false} enableRotate={allowMovement} />
       <Ball imgUrl={icon} allowMovement={allowMovement} />
 
       <Preload all />
