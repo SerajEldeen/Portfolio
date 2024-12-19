@@ -124,3 +124,14 @@
 .button-effect:active {
   transform: scale(0.9);
 }
+@media (max-width: 480px) {
+  .custom-vertical-timeline-element {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+  }
+  .custom {
+    display: none;
+  }
+}
