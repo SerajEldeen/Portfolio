@@ -19,8 +19,7 @@ const ExperienceCard = ({ experience }) => {
         background: "#f5f5f5",
         color: "#525f7f",
       }}
-      iconClassName="custom"
-      textClassName="textClass"
+      iconClassName="custom-icon"
       contentArrowStyle={{
         borderRight: "7px solid #232631",
         ...(isSmallScreen && { display: "none" }),

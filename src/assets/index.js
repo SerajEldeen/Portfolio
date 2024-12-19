@@ -3,7 +3,6 @@ import github from "./github.png";
 import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import myPhoto from "./myPhoto.jpeg";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -35,7 +34,6 @@ export {
   redux,
   tailwind,
   linkedin,
-  myPhoto,
   outlier,
   TheWildOasis,
   GeminiClone,
