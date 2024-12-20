@@ -34,10 +34,7 @@ const Contact = () => {
                 <FontAwesomeIcon icon={faEnvelope} className="w-1/2 h-1/2" />
               </div>
             </a>
-            <a
-              href="https://www.linkedin.com/in/seraj-eldeen-abdullah-8872832a3/"
-              target="_blank"
-            >
+            <a href="www.linkedin.com/in/seraj-eldeen-abdullah" target="_blank">
               <div
                 className=" bg-white  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
               hover:opacity-40 hover:-translate-y-1.5 hover:delay-200 ease-in-out shadow-lg"
