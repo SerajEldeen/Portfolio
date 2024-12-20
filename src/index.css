@@ -128,7 +128,7 @@
   .custom-vertical-timeline-element {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-65%);
     width: 300px;
   }
   .custom-icon {
