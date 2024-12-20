@@ -1,13 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import {
-  About,
-  Contact,
-  Experience,
-  Hero,
-  Navbar,
-  // Tech,
-  Works,
-} from "./components";
+import { About, Contact, Experience, Hero, Navbar, Works } from "./components";
+import Skills from "./components/Skills";
 const App = () => {
   return (
     <Router>
@@ -15,7 +8,7 @@ const App = () => {
       <Hero />
       <About />
       <Experience />
-      {/* <Tech /> */}
+      <Skills />
       <Works />
       <Contact />
     </Router>
