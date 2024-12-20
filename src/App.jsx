@@ -1,6 +1,13 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import { About, Contact, Experience, Hero, Navbar, Works } from "./components";
-import Skills from "./components/Skills";
+import {
+  About,
+  Contact,
+  Experience,
+  Hero,
+  Navbar,
+  Works,
+  Skills,
+} from "./components";
 const App = () => {
   return (
     <Router>
