@@ -19,6 +19,7 @@ import outlier from "./outlier.jpg";
 import TheWildOasis from "./Projects/TheWildOasis.png";
 import GeminiClone from "./Projects/GeminiClone.png";
 import Portfolio from "./Projects/portfolio.png";
+import next_Dashboard from "./Projects/next_Dashboard.png";
 
 export {
   logo,
@@ -33,10 +34,11 @@ export {
   reactjs,
   redux,
   tailwind,
+  typeScript,
   linkedin,
   outlier,
   TheWildOasis,
   GeminiClone,
   Portfolio,
-  typeScript,
+  next_Dashboard,
 };

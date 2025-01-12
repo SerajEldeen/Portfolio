@@ -7,11 +7,12 @@ import {
   tailwind,
   nodejs,
   git,
+  typeScript,
   outlier,
   TheWildOasis,
   GeminiClone,
   Portfolio,
-  typeScript,
+  next_Dashboard,
 } from "../assets";
 
 export const navLinks = [
@@ -155,6 +156,29 @@ const projects = [
     source_code_link: "https://github.com/SerajEldeen/Portfolio",
     prereview_link:
       "https://portfolio-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
+  },
+  {
+    name: "Nextjs-Dashboard",
+    description:
+      "This project showcases a simple and dynamic dashboard designed to display real-time statistics updates. It includes visualization graphs to enhance data representation, providing better insights and improving decision-making processes.",
+    tags: [
+      {
+        name: "Next-js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: next_Dashboard,
+    source_code_link: "https://github.com/SerajEldeen/Next-Dashboard",
+    prereview_link:
+      "https://next-dashboard-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
   },
 ];
 
