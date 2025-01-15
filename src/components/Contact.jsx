@@ -15,7 +15,7 @@ const Contact = () => {
           >
             Reach me here
           </h2>
-          <a href="/SerajEldeen.pdf" target="_blank">
+          <a href="/SerajELdeen.pdf" target="_blank">
             <button
               className=" button-effect text-secondary mb-10   bg-white rounded-md
             hover:scale-105 hover:text-white  duration-500  uppercase 
