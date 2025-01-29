@@ -152,8 +152,7 @@ const projects = [
     ],
     image: Portfolio,
     source_code_link: "https://github.com/SerajEldeen/Portfolio",
-    prereview_link:
-      "https://portfolio-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
+    prereview_link: "https://serajeldeen13.netlify.app/",
   },
 ];
 
