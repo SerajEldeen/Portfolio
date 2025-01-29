@@ -10,16 +10,15 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typeScript from "./tech/typescript.png";
+import nextJs from "./tech/nextJs.jpg";
 
-import outlier from "./outlier.jpg";
+import outlier from "./company/outlier.jpg";
 
-import TheWildOasis from "./Projects/TheWildOasis.png";
-import GeminiClone from "./Projects/GeminiClone.png";
 import Portfolio from "./Projects/portfolio.png";
 import next_Dashboard from "./Projects/next_Dashboard.png";
+import TheAmazingEgypt from "./Projects/TheAmazingEgypt.png";
 
 export {
   logo,
@@ -32,13 +31,12 @@ export {
   javascript,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typeScript,
+  nextJs,
   linkedin,
   outlier,
-  TheWildOasis,
-  GeminiClone,
   Portfolio,
   next_Dashboard,
+  TheAmazingEgypt,
 };

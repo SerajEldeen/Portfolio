@@ -3,14 +3,13 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  nextJs,
   tailwind,
   nodejs,
   git,
   typeScript,
   outlier,
-  TheWildOasis,
-  GeminiClone,
+  TheAmazingEgypt,
   Portfolio,
   next_Dashboard,
 } from "../assets";
@@ -49,8 +48,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next-js",
+    icon: nextJs,
   },
   {
     name: "Tailwind CSS",
@@ -89,62 +88,16 @@ const experiences = [
 
 const projects = [
   {
-    name: "TheWildOasis",
+    name: "TheAmazingEgypt",
     description:
-      "Wild Oasis is a modern and responsive hotel booking application designed to streamline the process of managing reservations and room availability. The project focuses on delivering a seamless and user-friendly interface by leveraging the latest technologies.",
+      "TheAmazingEgypt is a project that showcases the breathtaking beauty of Egypt, highlighting its most stunning and iconic destinations. It offers an unforgettable experience for visitors looking to explore and immerse themselves in the wonders of Egypt.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: TheWildOasis,
-    source_code_link: "https://github.com/SerajEldeen/TheWildOasis",
-    prereview_link:
-      "https://the-wild-oasis-53ay-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
-  },
-  {
-    name: "Gemini Clone",
-    description:
-      "Gemini Clone is an AI-powered web application inspired by Google's Generative AI capabilities. It allows users to interact with a generative AI model, providing real-time responses based on user input. The project showcases the integration of AI APIs with a modern frontend, delivering a seamless and interactive user experience.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "useContext",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: GeminiClone,
-    source_code_link: "https://github.com/SerajEldeen/GeminiClone",
-    prereview_link:
-      "https://gemini-clone-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
-  },
-  {
-    name: "Portfolio",
-    description:
-      "This portfolio showcases the projects I’ve worked on and demonstrates my skills in building modern web applications. You’ll find detailed descriptions of each project, the technologies I used, and the results achieved. If you’d like to collaborate or have any questions, feel free to reach out to me via the contact section.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Framer motion",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
@@ -152,10 +105,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: Portfolio,
-    source_code_link: "https://github.com/SerajEldeen/Portfolio",
-    prereview_link:
-      "https://portfolio-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
+    image: TheAmazingEgypt,
+    source_code_link: "https://github.com/SerajEldeen/TheAmazingEgypt",
+    prereview_link: "https://the-amazing-egypt.netlify.app/",
   },
   {
     name: "Nextjs-Dashboard",
@@ -179,6 +131,29 @@ const projects = [
     source_code_link: "https://github.com/SerajEldeen/Next-Dashboard",
     prereview_link:
       "https://next-dashboard-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "This portfolio showcases the projects I’ve worked on and demonstrates my skills in building modern web applications. You’ll find detailed descriptions of each project, the technologies I used, and the results achieved. If you’d like to collaborate or have any questions, feel free to reach out to me via the contact section.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Framer motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Portfolio,
+    source_code_link: "https://github.com/SerajEldeen/Portfolio",
+    prereview_link:
+      "https://portfolio-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
   },
 ];
 
