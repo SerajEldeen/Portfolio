@@ -26,7 +26,7 @@ const Contact = () => {
           </a>
 
           <div className=" flex justify-center">
-            <a href="mailto:serageldeen13@gmail.com" target="_blank">
+            <a href="mailto:serageldeen13@gmail.com">
               <div
                 className=" bg-white  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
               hover:opacity-40 hover:-translate-y-1.5 hover:delay-200 ease-in-out shadow-lg"
@@ -34,14 +34,20 @@ const Contact = () => {
                 <FontAwesomeIcon icon={faEnvelope} className="w-1/2 h-1/2" />
               </div>
             </a>
-            <a href="www.linkedin.com/in/seraj-eldeen-abdullah" target="_blank">
-              <div
-                className=" bg-white  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
-              hover:opacity-40 hover:-translate-y-1.5 hover:delay-200 ease-in-out shadow-lg"
-              >
-                <img src={linkedin} alt={linkedin} className="w-1/2 h-1/2" />
-              </div>
-            </a>
+            <div
+              className="bg-white mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
+    hover:opacity-40 hover:-translate-y-1.5 hover:delay-200 ease-in-out shadow-lg"
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/seraj-eldeen-abdullah/",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              <img src={linkedin} alt="LinkedIn" className="w-1/2 h-1/2" />
+            </div>
+
             <a href="https://github.com/SerajEldeen" target="_blank">
               <div
                 className="bg-black  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
