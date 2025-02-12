@@ -63,7 +63,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <div className="mt-10 sm:px-24 px-2 sm:ml-10">
+      <div className="mt-10 sm:px-24 px-5 sm:ml-10">
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>My work</p>
           <h2 className={styles.sectionHeadText}>Projects</h2>

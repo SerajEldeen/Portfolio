@@ -49,11 +49,11 @@ const Navbar = () => {
             {toggle && (
               <>
                 <div className="relative">
-                  <ul className="list-none flex flex-col absolute right-10 top-2 z-10 bg-secondary rounded-xl mx-4 p-4 shadow-lg transition-transform transform hover:scale-105 cursor-pointer">
+                  <ul className="list-none flex flex-col absolute right-10 top-2 z-10 bg-gray-400 rounded-xl mx-4 p-4 shadow-lg transition-transform transform hover:scale-105 cursor-pointer">
                     {navLinks.map((nav) => (
                       <li
                         key={nav.id}
-                        className="text-white hover:text-cyan-200 text-[18px] font-medium hover:translate-x-3 hover:scale-110 hover:delay-200 ease-in-out transition-all"
+                        className="text-white hover:text-cyan-300 text-[18px] font-medium hover:translate-x-3 hover:scale-110 hover:delay-200 ease-in-out transition-all"
                         onClick={() => {
                           setToggle(!toggle);
                         }}
