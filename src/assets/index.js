@@ -13,12 +13,14 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typeScript from "./tech/typescript.png";
 import nextJs from "./tech/nextJs.jpg";
+import figma from "./tech/figma.jpg";
 
 import outlier from "./company/outlier.jpg";
 
 import Portfolio from "./Projects/portfolio.png";
 import next_Dashboard from "./Projects/next_Dashboard.png";
 import TheAmazingEgypt from "./Projects/TheAmazingEgypt.png";
+import GoldXchange from "./Projects/GoldXchange.png";
 
 export {
   logo,
@@ -34,9 +36,11 @@ export {
   tailwind,
   typeScript,
   nextJs,
+  figma,
   linkedin,
   outlier,
   Portfolio,
   next_Dashboard,
   TheAmazingEgypt,
+  GoldXchange,
 };

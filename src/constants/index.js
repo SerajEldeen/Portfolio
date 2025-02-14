@@ -8,10 +8,12 @@ import {
   nodejs,
   git,
   typeScript,
+  figma,
   outlier,
   TheAmazingEgypt,
   Portfolio,
   next_Dashboard,
+  GoldXchange,
 } from "../assets";
 
 export const navLinks = [
@@ -68,6 +70,10 @@ const technologies = [
     name: "TypeScript",
     icon: typeScript,
   },
+  {
+    name: "Figma",
+    icon: figma,
+  },
 ];
 
 const experiences = [
@@ -110,6 +116,28 @@ const projects = [
     prereview_link: "https://the-amazing-egypt.netlify.app/",
   },
   {
+    name: "GoldXchange",
+    description:
+      "GoldXchange is a simple web platform that allows users to exchange and track gold prices seamlessly. It features Google and GitHub authentication for secure login, a responsive design for accessibility, and a structured privacy policy to comply with Google Cloud requirements. The website is deployed on Netlify, ensuring smooth performance and availability.",
+    tags: [
+      {
+        name: "Next-auth",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-query",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: GoldXchange,
+    source_code_link: "https://github.com/SerajEldeen/GoldXchange",
+    prereview_link: "https://goldxchange.netlify.app/",
+  },
+  {
     name: "Nextjs-Dashboard",
     description:
       "This project showcases a simple and dynamic dashboard designed to display real-time statistics updates. It includes visualization graphs to enhance data representation, providing better insights and improving decision-making processes.",
@@ -132,6 +160,7 @@ const projects = [
     prereview_link:
       "https://next-dashboard-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
   },
+
   {
     name: "Portfolio",
     description:
