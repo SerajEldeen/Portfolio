@@ -26,14 +26,14 @@ const Contact = () => {
           </a>
 
           <div className=" flex justify-center">
-            <a href="mailto:serageldeen13@gmail.com">
-              <div
-                className=" bg-white  mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
-              hover:opacity-40 hover:-translate-y-1.5 hover:delay-200 ease-in-out shadow-lg"
-              >
-                <FontAwesomeIcon icon={faEnvelope} className="w-1/2 h-1/2" />
-              </div>
+            <a
+              href="mailto:serageldeen13@gmail.com"
+              className="bg-white mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
+  hover:opacity-40 hover:-translate-y-1.5 hover:delay-200 ease-in-out shadow-lg"
+            >
+              <FontAwesomeIcon icon={faEnvelope} className="w-1/2 h-1/2" />
             </a>
+
             <div
               className="bg-white mr-3 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
     hover:opacity-40 hover:-translate-y-1.5 hover:delay-200 ease-in-out shadow-lg"
