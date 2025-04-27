@@ -6,6 +6,7 @@ import {
   nextJs,
   tailwind,
   nodejs,
+  mongodb,
   git,
   typeScript,
   figma,
@@ -61,7 +62,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-
+  {
+    name: "Mongo DB",
+    icon: mongodb,
+  },
   {
     name: "git",
     icon: git,
@@ -82,7 +86,7 @@ const experiences = [
     company_name: "Outlier ",
     icon: outlier,
     iconBg: "#383E56",
-    date: "November 2024 - Present [FreeLance]",
+    date: "November 2024 - March 2025",
     points: [
       "Help train generative artificial intelligence models.",
       "Craft and answer questions related to computer science to assist in training AI models.",

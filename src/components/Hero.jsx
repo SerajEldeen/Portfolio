@@ -11,17 +11,16 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-primary" />
           <div className="w-1 sm:h-96 h-40 blue-gradient" />
         </div>
-
         <div>
           <h1 className={`${styles.heroHeadText} `}>
-            Hi, I&apos;m <span className="text-primary">Seraj</span>
+            Hi, I&apos;m <span className="text-primary">Seraj Eldeen</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop user interfaces and
-            <br className="sm:block hidden" /> web applications
+            A passionate Software Engineer and
+            <br className="sm:block hidden" /> Building modern web applications.
           </p>
         </div>
-        <div className="hidden md:block absolute left-[55%] pointer-events-none ">
+        <div className="hidden lg:block absolute left-[65%] pointer-events-none ">
           <LottieComponent />
         </div>
       </div>

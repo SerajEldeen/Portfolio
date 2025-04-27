@@ -14,6 +14,7 @@ import tailwind from "./tech/tailwind.png";
 import typeScript from "./tech/typescript.png";
 import nextJs from "./tech/nextJs.jpg";
 import figma from "./tech/figma.jpg";
+import mongodb from "./tech/mongodb.png";
 
 import outlier from "./company/outlier.jpg";
 
@@ -32,6 +33,7 @@ export {
   html,
   javascript,
   nodejs,
+  mongodb,
   reactjs,
   tailwind,
   typeScript,
