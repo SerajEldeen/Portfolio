@@ -12,9 +12,9 @@ import {
   figma,
   outlier,
   TheAmazingEgypt,
-  Portfolio,
   next_Dashboard,
   GoldXchange,
+  BookStore,
 } from "../assets";
 
 export const navLinks = [
@@ -120,9 +120,35 @@ const projects = [
     prereview_link: "https://the-amazing-egypt.netlify.app/",
   },
   {
+    name: "Book-Store",
+    description:
+      "Book-Store is a user-friendly web application that allows users to manage books through full CRUD operations, with all data stored in a MongoDB database.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: BookStore,
+    source_code_link: "https://github.com/SerajEldeen/Book-Store",
+    prereview_link: "https://book-store-frontend-eight-xi.vercel.app/",
+  },
+  {
     name: "GoldXchange",
     description:
-      "GoldXchange is a simple web platform that allows users to exchange and track gold prices seamlessly. It features Google and GitHub authentication for secure login, a responsive design for accessibility, and a structured privacy policy to comply with Google Cloud requirements. The website is deployed on Netlify, ensuring smooth performance and availability.",
+      "GoldXchange is a responsive web app for tracking and exchanging gold prices, featuring Google/GitHub login and a clear privacy policy.",
     tags: [
       {
         name: "Next-auth",
@@ -163,29 +189,6 @@ const projects = [
     source_code_link: "https://github.com/SerajEldeen/Next-Dashboard",
     prereview_link:
       "https://next-dashboard-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
-  },
-
-  {
-    name: "Portfolio",
-    description:
-      "This portfolio showcases the projects I’ve worked on and demonstrates my skills in building modern web applications. You’ll find detailed descriptions of each project, the technologies I used, and the results achieved. If you’d like to collaborate or have any questions, feel free to reach out to me via the contact section.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Framer motion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Portfolio,
-    source_code_link: "https://github.com/SerajEldeen/Portfolio",
-    prereview_link: "https://serajeldeen13.netlify.app/",
   },
 ];
 

@@ -16,8 +16,8 @@ const Hero = () => {
             Hi, I&apos;m <span className="text-primary">Seraj Eldeen</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A passionate Software Engineer and
-            <br className="sm:block hidden" /> Building modern web applications.
+            A passionate Software Engineer,
+            <br className="sm:block hidden" /> building modern web applications.
           </p>
         </div>
         <div className="hidden lg:block absolute left-[65%] pointer-events-none ">
