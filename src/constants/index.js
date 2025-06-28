@@ -15,6 +15,7 @@ import {
   next_Dashboard,
   GoldXchange,
   BookStore,
+  Hidaya,
 } from "../assets";
 
 export const navLinks = [
@@ -97,6 +98,28 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Hidaya",
+    description:
+      "Hidaya is a modern, user-friendly website designed with a noble intention: to raise awareness about the teachings of Islam. The project showcases Islamic habits, values, and lifestyle through elegant UI, interactive components, and responsive design.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Hidaya,
+    source_code_link: "https://github.com/SerajEldeen/TheAmazingEgypt",
+    prereview_link: "https://hidayaa.netlify.app/",
+  },
   {
     name: "TheAmazingEgypt",
     description:

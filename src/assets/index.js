@@ -22,6 +22,7 @@ import next_Dashboard from "./Projects/next_Dashboard.png";
 import TheAmazingEgypt from "./Projects/TheAmazingEgypt.png";
 import GoldXchange from "./Projects/GoldXchange.png";
 import BookStore from "./Projects/Book_Store.png";
+import Hidaya from "./Projects/Hidaya.png";
 
 export {
   logo,
@@ -45,4 +46,5 @@ export {
   TheAmazingEgypt,
   GoldXchange,
   BookStore,
+  Hidaya,
 };
