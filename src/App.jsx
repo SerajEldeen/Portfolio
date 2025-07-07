@@ -17,7 +17,7 @@ const App = () => {
       <Experience />
       <Skills />
       <Works />
-      {/* <Contact /> */}
+      <Contact />
     </Router>
   );
 };
