@@ -15,8 +15,10 @@ import typeScript from "./tech/typescript.png";
 import nextJs from "./tech/nextJs.jpg";
 import figma from "./tech/figma.jpg";
 import mongodb from "./tech/mongodb.png";
+import postgresql from "./tech/postgresql.png";
 
 import outlier from "./company/outlier.jpg";
+import depi from "./company/depi.jpg";
 
 import next_Dashboard from "./Projects/next_Dashboard.png";
 import TheAmazingEgypt from "./Projects/TheAmazingEgypt.png";
@@ -40,8 +42,10 @@ export {
   typeScript,
   nextJs,
   figma,
+  postgresql,
   linkedin,
   outlier,
+  depi,
   next_Dashboard,
   TheAmazingEgypt,
   GoldXchange,
