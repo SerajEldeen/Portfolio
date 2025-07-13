@@ -12,12 +12,12 @@ import {
   figma,
   outlier,
   TheAmazingEgypt,
-  next_Dashboard,
   GoldXchange,
   BookStore,
   Hidaya,
   depi,
   postgresql,
+  PostgreStore,
 } from "../assets";
 
 export const navLinks = [
@@ -115,6 +115,32 @@ const experiences = [
 
 const projects = [
   {
+    name: "PostgreStore",
+    description:
+      "PostgreStore is a complete PERN stack project that implements CRUD operations for authenticated users.",
+    tags: [
+      {
+        name: "PostgreSql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "DaisyUI",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: PostgreStore,
+    source_code_link: "https://github.com/SerajEldeen/PostgreStore",
+    prereview_link: "https://github.com/SerajEldeen/PostgreStore",
+  },
+  {
     name: "Hidaya",
     description:
       "Hidaya is a modern, user-friendly website designed with a noble intention: to raise awareness about the teachings of Islam. The project showcases Islamic habits, values, and lifestyle through elegant UI, interactive components, and responsive design.",
@@ -205,29 +231,6 @@ const projects = [
     image: GoldXchange,
     source_code_link: "https://github.com/SerajEldeen/GoldXchange",
     prereview_link: "https://goldxchange.netlify.app/",
-  },
-  {
-    name: "Nextjs-Dashboard",
-    description:
-      "This project showcases a simple and dynamic dashboard designed to display real-time statistics updates. It includes visualization graphs to enhance data representation, providing better insights and improving decision-making processes.",
-    tags: [
-      {
-        name: "Next-js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TypeScript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "green-text-gradient",
-      },
-    ],
-    image: next_Dashboard,
-    source_code_link: "https://github.com/SerajEldeen/Next-Dashboard",
-    prereview_link:
-      "https://next-dashboard-git-master-seraj-eldeen-abdullahs-projects.vercel.app/",
   },
 ];
 
